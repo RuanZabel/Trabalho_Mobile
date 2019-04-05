@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trabalho_Mobile</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="name">Name</string>
+    <string name="phone">Telephone</string>
+    <string name="endere">Address</string>
+    <string name="textBotao">OK</string>
+    <string name="textEsco">Choose your snack</string>
+    <string name="pizza">Pizza</string>
+    <string name="lanches">Snacks</string>
+    <string name="porção">Portions</string>
+    <string name="DgtNome">Type your name</string>
+    <string name="yourAdress">Type your address</string>
+</resources>

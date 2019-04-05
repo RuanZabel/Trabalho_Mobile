@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Trabalho_Mobile</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="phone">Telefone</string>
+    <string name="endere">Endereço</string>
+    <string name="textBotao">Salvar</string>
     <string-array name="saborPizza">
         <item>Calabresa</item>
         <item>Frango</item>
@@ -15,6 +18,14 @@
     <string-array name="tpoLanche">
         <item>X-Salada</item>
         <item>X-Frango</item>
-        <item>X=Bacon</item>
+        <item>X-Bacon</item>
     </string-array>
+    <string name="name">Nome</string>
+    <string name="textEsco">Escolha seu lanche</string>
+    <string name="pizza">Pizza</string>
+    <string name="lanches">Lanches</string>
+    <string name="porção">Porções</string>
+    <string name="DgtNome">Digite seu nome</string>
+    <string name="yourAdress">Digite seu endereço</string>
+    <string name="title_activity_main4">Main4Activity</string>
 </resources>
