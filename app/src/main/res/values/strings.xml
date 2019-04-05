@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trabalho_Mobile</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string-array name="saborPizza">
+        <item>Calabresa</item>
+        <item>Frango</item>
+        <item>Filé</item>
+    </string-array>
+    tpoPorcao
+    <string-array name="tpoPorcao">
+        <item>Fritas com calabresa</item>
+        <item>Fritas pequena</item>
+        <item>Fritas media</item>
+    </string-array>
+    <string-array name="tpoLanche">
+        <item>X-Salada</item>
+        <item>X-Frango</item>
+        <item>X=Bacon</item>
+    </string-array>
+</resources>
