@@ -1,5 +1,7 @@
 package ifsc.edu.trabalho_mobile;
 
+import java.io.Serializable;
+
 public class TipoLanche {
     private String tipo = "";
     private double preco = 0;

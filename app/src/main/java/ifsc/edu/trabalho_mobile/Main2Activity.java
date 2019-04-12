@@ -2,6 +2,7 @@ package ifsc.edu.trabalho_mobile;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Spinner;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Main2Activity extends AppCompatActivity {
 
@@ -45,8 +51,11 @@ public class Main2Activity extends AppCompatActivity {
         Button botao = (Button) findViewById(R.id.btcompra);
         botao.setOnClickListener(new View.OnClickListener(){
             @Override
+            
             public void onClick(View v) {
                 Intent intent =new Intent(Main2Activity.this, Main3Activity.class);
+                intent.putExtra("array",(Serializable)array.buscarArray());
+                ArrayList lista = array.buscarArray();
                 startActivity(intent);
             }
 
